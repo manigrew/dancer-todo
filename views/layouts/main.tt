@@ -11,7 +11,7 @@
 		<title>Simple Sidebar - Start Bootstrap Template</title>
 
 		<!-- Bootstrap core CSS -->
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- Custom styles for this template -->
 		<link href="css/simple-sidebar.css" rel="stylesheet">
@@ -70,6 +70,7 @@
 				</nav>
 
 				<div class="container-fluid">
+					<!--% content %-->
 					<h1 class="mt-4">Simple Sidebar</h1>
 					<p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
 					<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>

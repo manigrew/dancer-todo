@@ -30,7 +30,7 @@ charset: "UTF-8"
 template: "simple"
 
 # template: "template_toolkit"
-# engines:
+engines:
 #   template:
 #     template_toolkit:
 #       # Note: start_tag and end_tag are regexes
@@ -55,8 +55,8 @@ template: "simple"
 #      cookie_name: testapp.session
 #
 #engines:
-#  session:
-#    YAML:
-#      cookie_name: eshop.session
-#      is_secure: 1
-#      is_http_only: 1
+  session:
+    YAML:
+      cookie_name: eshop.session
+      is_secure: 1
+      is_http_only: 1
